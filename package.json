@@ -4,10 +4,12 @@
   "version": "1.0.0",
   "description": "Root package for Vercel serverless /api functions. The React app lives in /client with its own package.json.",
   "dependencies": {
+    "express": "^4.21.1",
     "mongoose": "^8.6.0"
   },
   "scripts": {
     "dev:client": "cd client && npm run dev",
-    "build": "cd client && npm install && npm run build"
+    "build": "cd client && npm install && npm run build",
+    "start": "node server.js"
   }
 }
