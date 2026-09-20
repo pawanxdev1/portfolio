@@ -14,15 +14,15 @@ const profile = {
   availability: 'Available for opportunities',
 
   // Set to a real image path in /public (e.g. "/profile.jpg") once you have one.
-  photo: null,
+  photo: '/photo.webp',
 
-  email: 'pawan.prajapati@example.com',
-  phone: '+91 00000 00000',
+  email: 'pawanxdev@gmail.com',
+  phone: '+91 7800642122',
 
   socials: {
-    github: 'https://github.com/your-username',
-    linkedin: 'https://linkedin.com/in/your-username',
-    email: 'mailto:pawan.prajapati@example.com',
+    github: 'https://github.com/pawanxdev1',
+    linkedin: 'https://www.linkedin.com/in/pawanxdev/',
+    email: 'mailto:pawanxdev@gmail.com',
   },
 
   // Place your actual PDF at client/public/resume.pdf and this will link to it.
